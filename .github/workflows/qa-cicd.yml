@@ -36,7 +36,7 @@ jobs:
         with:
           name: gitleaks-report
           path: gitleaks-report.json
-          if-no-files-found: warn
+          #if-no-files-found: warn
 
   checkov-terraform:
     name: Checkov Terraform Scan
